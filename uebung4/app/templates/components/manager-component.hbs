@@ -1,0 +1,19 @@
+<table class="table">
+<thead>
+  <tr>
+     <th>Task</th>
+     <th>Status</th>
+     <th>Priority</th>
+     <th>Creator</th>
+     <th>Editor</th>
+  </tr>
+  </thead>
+  <tbody>
+    {{#each tasks as |task|}}
+    {{#task-component task=task}}
+    {{/task-component}}
+    {{/each}}
+  </tbody>
+</table>
+
+{{yield}}

@@ -1,0 +1,10 @@
+{{outlet}}
+
+<h2>All the lovely cats</h2>
+
+<ul>
+{{#each model as |cat|}}
+{{#cat-component cat=cat}}
+{{/cat-component}}
+{{/each}}
+</ul>

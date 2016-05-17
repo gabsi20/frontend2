@@ -1,0 +1,12 @@
+.catbox{
+	margin: 0 auto;
+	width: 600px;
+	background-color: #AAFFDF;
+	border: 2px solid #008A7A;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.nostyles{
+	list-style-type: none;
+}

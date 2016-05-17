@@ -1,0 +1,8 @@
+<div class="catbox">
+  <h3>{{cat.name}}</h3>
+  <p>Gender: {{cat.gender}}</p>
+  <p>Personality: {{cat.description}}</p>
+  <p><button {{action 'myfunc' cat}}>Say Hello</button></p>
+  <img src="{{cat.picture}}" alt="{{cat.name}}">
+</div>
+{{yield}}
